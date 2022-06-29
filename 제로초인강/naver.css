@@ -26,7 +26,7 @@ div#header-search h1 {
     display: inline-block;
     background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
     background-position: 0 -161px;
-    background-size: 471px 442px;
+    background-size: 472px 440px;
     background-repeat: no-repeat;
     vertical-align: middle;
     
@@ -56,3 +56,25 @@ div#header-search > fieldset input {
     outline: none;
     vertical-align: middle;
 }  /*실제 검색창*/
+
+#header-search fieldset button {
+    width: 49;
+    height: 49;
+    border: none;
+    padding: 0;
+   
+    background: #03cf5d;
+    
+}
+
+
+#header-search fieldset button .search-image {
+    background-image: url(./11.png);
+    background-position: 0 0 0 0;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    margin: 2px;
+
+}
