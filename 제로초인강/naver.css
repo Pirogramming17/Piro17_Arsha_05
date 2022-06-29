@@ -2,7 +2,20 @@
 
 div#header-center {
     margin: 0 auto; 
-    width: 1080px;
+    width: 1080px;  /*내 컴퓨터 픽셀은 1536, height는 864*/
 
+} 
+
+div#header-search > h1 {
+    width: 280px;
+    display: inline-block; /*기본적으로 div에 설정되어있던 display block을 풀어줌*/
+} 
+
+div#header-search > h2 {
+    display: none /*화면에 안보이게 설정*/
 }
 
+div#header-search > fieldset {
+    width: 520px;
+    display: inline-block;
+}
