@@ -25,7 +25,25 @@ html, body {
 
 } 
 
+
+#header-top {
+    float: right; /*오른쪽에 둥둥 떠있음*/
+   
+}
+
+#header-top span {
+    color: #888;
+    letter-spacing: -1px;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+#header-search {
+    clear: both; /* 블록서식맥락 생성이 어려우면, 그 대신에 공간 안겹치게 때 사용*/
+}
+
 div#header-search h1 {
+
     width: 234px;
     height: 54px;
     display: inline-block;
