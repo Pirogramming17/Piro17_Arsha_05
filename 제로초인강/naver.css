@@ -1,0 +1,8 @@
+/*선택자(selecter)*/
+
+div#header-center {
+    margin: 0 auto; 
+    width: 1080px;
+
+}
+
