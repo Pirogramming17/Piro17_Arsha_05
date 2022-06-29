@@ -47,6 +47,9 @@ div#header-search > fieldset {
     width: 521px;
     height: 48px;
     display: inline-block;
+    border: 2px solid #03cf5d;
+    vertical-align: middle;
+    position: relative;
 }
 
 
@@ -55,6 +58,9 @@ div#header-search > fieldset input {
     padding: 0;
     outline: none;
     vertical-align: middle;
+    width: 405px;
+    height: 23px;
+    
 }  /*실제 검색창*/
 
 #header-search fieldset button {
@@ -64,6 +70,9 @@ div#header-search > fieldset input {
     padding: 0;
    
     background: #03cf5d;
+    position: absolute;
+    right: 0;
+    top: 0;
     
 }
 
