@@ -376,6 +376,34 @@ width: 100%;*/
 }
 
 
+#main-login.login-wrapper {
+    padding: 15px 25px;
+}
+
+
+#main-login.login-wrapper a {
+    display: block;
+    margin-top: 12px;
+}
+
+
+#main-login.login-text {
+    color: #888;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+
+#main-login. login-image {
+    background: url(./sp_login.png) 0 -47px no-repeat;
+    display: inline-block;
+    width: 280;
+    height: 37;
+
+}
+
+
 #main-first-block {
     display: inline-block;
     width: 100%;
