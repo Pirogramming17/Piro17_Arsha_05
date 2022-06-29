@@ -16,13 +16,27 @@ div#header-center {
 } 
 
 div#header-search > h1 {
-    width: 280px;
-    display: inline-block; /*기본적으로 div에 설정되어있던 display block을 풀어줌*/
+    width: 234px;
+    height: 54px;
+    display: inline-block;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+    background-position: 0 -161px;
+    background-size: 471px 442px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-indent: 100%;
+    overflow: hidden;
+    
+
 } 
 
 
 
 div#header-search > fieldset {
-    width: 520px;
-    display: inline-block;
+    margin-left: 20px; 
+    padding: 12px 0 12px 10px;  
+    border: 2px solid #03cf5d     /* padding 위 아래 오른쪽 왼쪽*/
+    width: 521px;
+    height: 49px;
+    display: inline-block;S
 }
