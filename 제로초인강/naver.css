@@ -278,10 +278,13 @@ nav li.more:first-child span:first-child {
 
 main {
     background-color: #f2f4f7;
+    display: inline-block;
+    width: 100%;
     
 }
 
-main h3:nth-of-type(2) {
-    background-color: red;
+/*마진상쇄 없애는 법:
 
-}
+ ⇒ display: inline-block;
+
+width: 100%;*/
