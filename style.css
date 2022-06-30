@@ -3,7 +3,11 @@
 /* 스타일 만드실때 만드는중인 아이디 꼭 먼저 적고 만들어주세요
 #1-fixed ~~~~{ ...} */
 
-#contaier {
+#container {
   display: flex;
   flex-direction: column;
+}
+
+#fixed-2 {
+  background-color: aqua;
 }
