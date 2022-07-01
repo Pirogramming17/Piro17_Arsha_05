@@ -219,6 +219,18 @@
   padding: 20px;
 }
 
+#services-6 #flexone .maindiv:hover #span11,
+#services-6 #flexone .maindiv:hover #span21,
+#services-6 #flexone .maindiv:hover #span31,
+#services-6 #flexone .maindiv:hover #span41 {
+  color: #00c8ff;
+}
+
+#services-6 #flexone .maindiv:hover {
+  position: relative;
+  bottom: 15px;
+}
+
 #call-to-7 {
   background-image: url(./im2.png);
   padding: 170px 100px;
