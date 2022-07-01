@@ -461,3 +461,100 @@
 ::-webkit-progress-bar {
   background-color: #e8edf5;
 }
+
+/* 3번 */
+
+#about-us-3 .blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+#about-us-3 {
+  width: 1520px;
+  height: 400;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-us-3 #aboutus {
+  width: 1300px;
+  height: 108.4px;
+
+  right: 100px;
+  padding: 0px 0px 30px;
+  margin: 0 auto;
+
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  color: #37517e;
+
+  text-align: center;
+}
+
+#about-us-3 #aboutus-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1320px;
+}
+
+#about-us-3 #lorem1 {
+  width: 660px;
+  height: 172px;
+  padding: 0px 12px;
+  line-height: 150%;
+}
+
+#about-us-3 #lorem1 span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+  line-height: 165%;
+}
+
+#about-us-3 #lorem1 span p {
+  margin: 0px 0px 16px;
+}
+
+#about-us-3 #ullamco1 {
+  width: 660px;
+  height: 172px;
+  padding: 0px 12px;
+  line-height: 165%;
+}
+
+#about-us-3 #ullamco1 span p {
+  margin: 0px 0px 16px;
+}
+
+#about-us-3 #learnmore-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #47b2e4;
+  width: 155px;
+  height: 42px;
+  border: 2px solid #47b2e4;
+  border-radius: 4px;
+  line-height: 1;
+  margin: 6px 0px 0px;
+  padding: 12px 32px;
+}
+
+#about-us-3 #learnmore-button:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+
+#about-us-3 #ullamco1 span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
