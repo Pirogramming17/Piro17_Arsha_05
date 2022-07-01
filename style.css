@@ -72,27 +72,51 @@
   margin-top: 5px;
 }
 
-#fixed-1 #ul2 il {
-  padding: 40px 10px 0 15px;
-  margin-right: 0px;
-  border-radius: 5%;
-  border: 1px solid;
-  border-color: gray;
+#fixed-1 #ilback {
+  background-color: #47b2e4;
+  color: white;
+  fill: white;
+  padding: 40px 10px 0px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 0px solid gray;
+}
+
+#fixed-1 .hov {
+  padding: 40px 10px 0px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+#fixed-1 .hov svg {
+  fill: gray;
+}
+
+#fixed-1 #ul2 #ilback svg {
+  fill: white;
+}
+
+#fixed-1 #ul2 #ilback:hover {
+  background-color: #00c8ff;
 }
 
 #fixed-1 #text2 {
-  background-color: #3579cd;
   font-size: 20px;
   font-weight: bold;
   color: white;
   vertical-align: 20px;
   margin-top: 10px;
+  padding: 0 20px 0 10px;
 }
 
-#fixed-1 #ilback {
-  background-color: #3579cd;
-  color: white;
-  fill: white;
+#fixed-1 .hov:hover {
+  border-color: #00c8ff;
+}
+
+#fixed-1 .hov:hover svg {
+  fill: #00c8ff;
+  border-color: #00c8ff;
 }
 
 #fixed-1 #twoflxed {
@@ -241,7 +265,9 @@
 }
 
 #call-to-7 {
-  background-image: url(./im2.png);
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url(./cta-bg.jpg) fixed center center;
+  background-size: cover;
   padding: 170px 100px;
   background-position: center;
   background-repeat: no-repeat;
@@ -919,6 +945,12 @@
   vertical-align: -3px;
 }
 
+#join-our-13 #but:hover {
+  background-color: #0091b9;
+  color: #ffffff;
+  border-color: #0091b9;
+}
+
 /* 8번 */
 
 #portfolio-8 .blind {
@@ -1425,4 +1457,126 @@ textarea {
 
 #contact-12 #yourname button:hover {
   background: #3b94bd;
+}
+
+/* 9번 */
+
+#team-9 .people {
+  width: 500px;
+  height: 170px;
+  background-color: #ffffff;
+  display: flex;
+  padding: 3px;
+  border-radius: 2%;
+}
+
+#team-9 .top-text {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200px;
+}
+#team-9 .title {
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+#team-9 .sub-text {
+  color: #444444;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+}
+#team-9 .name {
+  color: #37517e;
+  font-family: "OpenSans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#team-9 .position {
+  color: #444444;
+  font-family: "OpenSans", sans-serif;
+  font-size: 15px;
+}
+#team-9 .sentence {
+  color: #444444;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+}
+#team-9 .face {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  justify-content: center;
+}
+#team-9 .main {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#team-9 {
+  background-color: #f3f5fa;
+  width: 100%;
+  height: 780px;
+}
+
+#team-9 .left {
+  margin-right: 20px;
+}
+#team-9 .first {
+  margin-bottom: 20px;
+}
+#team-9 .third {
+  margin-bottom: 20px;
+}
+#team-9 .explain {
+  margin-left: 20px;
+}
+#team-9 .bar-position {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#team-9 .main-bar {
+  content: "";
+  background: #cbd6e9;
+  width: 50px;
+  height: 1px;
+  bottom: 1px;
+}
+#team-9 .line1 {
+  content: "";
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: -20px;
+  left: calc(50% - 60px);
+  margin-bottom: 60px;
+}
+
+#team-9 .line2 {
+  content: "";
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #3579cd;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+#team-9 .contact {
+  width: 150px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#team-9 .img {
+  width: 32px;
+  height: 32px;
 }
