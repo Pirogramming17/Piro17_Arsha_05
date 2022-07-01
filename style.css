@@ -733,3 +733,84 @@
   justify-content: center;
   align-items: center;
 }
+
+/* 12-contact**********************/
+
+#contact-12 #main {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px;
+  flex-wrap: wrap;
+  height: 1300px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+#contact-12 #main h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  /* margin-bottom: 20px; */
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+}
+#contact-12 #main h2 {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: normal;
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding-bottom: 10px;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  line-height: 35px;
+}
+
+#contact-12 #main img {
+  width: 10%;
+  height: 2%;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+#contact-12 #main #info12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+  gap: 3em;
+  height: 500px;
+  padding: 30px;
+  margin: 30px;
+}
+
+#contact-12 #info12 .temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 1;
+  align-items: center;
+  height: 100%;
+  border-top: 4px solid #47b2e4;
+  border-bottom: 4px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+}
+
+#contact-12 #info12 #location {
+  width: 800px;
+  height: 900px;
+}
+#contact-12 #info12 #yourname {
+  width: 1200px;
+  height: 900px;
+}
