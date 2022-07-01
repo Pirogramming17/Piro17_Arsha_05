@@ -8,6 +8,136 @@
   flex-direction: column;
 }
 
-#fixed-2 {
-  background-color: aqua;
+#fixed-1 #oneflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 17px solid;
+  border-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+#fixed-1 #oneflexin1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#fixed-1 #img1 {
+  height: 40px;
+  margin-top: 5px;
+}
+
+#fixed-1 #text1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  vertical-align: 10px;
+  margin-top: 10px;
+}
+#fixed-1 #text1 span {
+  color: #3579cd;
+}
+
+#fixed-1 #ul1 {
+  margin-left: 30px;
+}
+
+#fixed-1 #ul1 svg {
+  margin-left: 20px;
+  fill: #3579cd;
+}
+
+#fixed-1 #ul1 svg:hover {
+  border-bottom: 2px solid;
+  border-color: #3579cd;
+}
+
+#fixed-1 #ul2 {
+  margin-top: 5px;
+}
+
+#fixed-1 #ul2 il {
+  padding: 40px 10px 0 15px;
+  margin-right: 0px;
+  border-radius: 5%;
+  border: 2px solid;
+  border-color: black;
+}
+
+#fixed-1 #text2 {
+  background-color: #3579cd;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  vertical-align: 20px;
+  margin-top: 10px;
+}
+
+#fixed-1 #ilback {
+  background-color: #3579cd;
+  color: white;
+  fill: white;
+}
+
+#fixed-1 #twoflxed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #002c61c0;
+  padding: 25px 95px;
+  position: fixed;
+  top: 89px;
+  left: 0;
+  right: 0;
+}
+
+#fixed-1 #twoflxed #arsha {
+  font-size: 40px;
+  font-weight: bold;
+  color: hwb(0 100% 0%);
+}
+
+#fixed-1 #twoflxed il {
+  font-size: 22px;
+  vertical-align: -15px;
+  margin-right: 30px;
+  color: hwb(0 100% 0%);
+}
+#fixed-1 #twoflxed #getstar {
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 4px solid;
+  border-color: #00c8ff;
+}
+
+#fixed-1 #twoflxed #getstar:hover {
+  color: white;
+  background-color: #00c8ff;
+}
+#fixed-1 #twoflxed #drop ul {
+  margin: 20px 10px 10px 480px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+  border-radius: 5%;
+  border: 4px;
+}
+
+#fixed-1 #twoflxed #drop ul il {
+  color: #3579cd;
+  margin: 20px 30px;
+}
+
+#fixed-1 #twoflxed #drop:hover > ul {
+  visibility: visible;
+}
+
+#fixed-1 #twoflxed il:hover {
+  color: #00c8ff;
 }
