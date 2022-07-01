@@ -461,3 +461,132 @@
 ::-webkit-progress-bar {
   background-color: #e8edf5;
 }
+
+/* 10번  */
+
+#pricing-10 {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+}
+
+#pricing-10 #flexone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#pricing-10 .flextwo {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px 50px 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(94, 94, 94);
+}
+
+#pricing-10 #textal {
+  text-align: center;
+}
+#pricing-10 #toptext {
+  font-size: 45px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#pricing-10 #hr {
+  width: 6%;
+  border-top: 5px solid #3579cd;
+}
+
+#pricing-10 #maintext {
+  margin: 40px 40px 100px 40px;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+
+#pricing-10 #flexone ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#pricing-10 .twomaintext {
+  font-size: 23px;
+  line-height: 50px;
+  fill: green;
+  color: grey;
+}
+
+#pricing-10 .getst {
+  margin: 50px 0;
+  color: #00c8ff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color: #00c8ff;
+  width: 70%;
+  text-align: center;
+}
+
+#pricing-10 .getst2 {
+  background-color: #00c8ff;
+  margin: 50px 0;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 50px;
+  border: 2px solid;
+
+  border-color: #00c8ff;
+  width: 70%;
+  text-align: center;
+}
+
+#pricing-10 .getst:hover {
+  background-color: #00c8ff;
+  color: #ffffff;
+}
+
+#pricing-10 .getst2:hover {
+  background-color: #0091b9;
+  color: #ffffff;
+  border-color: #0091b9;
+}
+
+#pricing-10 #borderch {
+  border-top: 5px solid #00c8ff;
+}
+
+#pricing-10 .main1 {
+  margin: 20px 0 40px 0;
+  color: #37517e;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#pricing-10 .main2 {
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+
+#pricing-10 .main2 svg {
+  vertical-align: top;
+  width: 10%;
+}
+
+#pricing-10 .main3 {
+  color: #00c8ff;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+#pricing-10 .svggry {
+  fill: gray;
+  text-decoration: line-through;
+}
