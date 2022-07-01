@@ -1587,3 +1587,194 @@ textarea {
   width: 32px;
   height: 32px;
 }
+
+/* 14번 */
+
+#footer-14 .blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+#footer-14 #footer-top {
+  width: 1520;
+  height: 340;
+  padding: 60px 0px 30px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer-14 #footer-bottom {
+  width: 1320;
+  height: 81;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 100px;
+  background-color: #37517e;
+}
+
+#footer-14 #footer-top #Arsha1 {
+  width: 330px;
+  height: 219px;
+  margin: 0px 0px 30px;
+  padding: 0px 12px;
+}
+
+#footer-14 #footer-top #Arsha-big {
+  color: #37517e;
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+  margin: 0px 0px 10px;
+  padding: 5px 0px;
+}
+
+#footer-14 #footer-top #arsha-box-top {
+  margin-bottom: 30px;
+}
+
+#footer-14 #footer-top #archa-phone {
+  margin-top: 10px;
+}
+
+#footer-14 #footer-top #arsha-box {
+  width: 306px;
+  height: 144px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  color: #5e5e5e;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+}
+
+#footer-14 #footer-top #arsha-box #arsha-box-top {
+}
+
+#footer-14 #footer-top #Useful2 {
+  width: 330px;
+  height: 219px;
+  margin: 0px 0px 30px;
+  padding: 0px 12px;
+}
+
+#footer-14 #footer-top #Useful2 #Useful2-top {
+  margin: 0px 0px 8px;
+  padding: 0px 0px 12px;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+
+#footer-14 #footer-top #Useful2 #Useful2-bottom {
+  color: #777777;
+  line-height: 250%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#footer-14 #footer-top #Our3 {
+  width: 330px;
+  height: 219px;
+  margin: 0px 0px 30px;
+  padding: 0px 12px;
+}
+
+#footer-14 #footer-top #Our3 #Our3-bottom {
+  color: #777777;
+  line-height: 250%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#footer-14 #footer-top #Our3 #Our3-top {
+  margin: 0px 0px 8px;
+  padding: 0px 0px 12px;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+
+#footer-14 #footer-top #Our4 {
+  width: 330px;
+  height: 219px;
+  margin: 0px 0px 30px;
+  padding: 0px 12px;
+}
+
+#footer-14 #footer-top #Our4 #Our4-top {
+  margin: 0px 0px 8px;
+  padding: 0px 0px 12px;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+
+#footer-14 #footer-top #Our4 #Our4-bottom {
+  color: #424345;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#footer-14 #Our4-icon {
+  margin-top: 18px;
+}
+
+#footer-14 #footer-bottom {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+#footer-14 .boldtext {
+  font-weight: bold;
+}
+
+#footer-14 #footer-bottom #color {
+  color: #47b2e4;
+}
+
+#footer-14 #footer-bottom #right {
+  justify-content: flex-between;
+}
+
+#footer-14 #footer-top #Useful2 #Useful2-bottom #a:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Useful2 #Useful2-bottom #b:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Useful2 #Useful2-bottom #c:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Useful2 #Useful2-bottom #d:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Useful2 #Useful2-bottom #e:hover {
+  color: #47b2e4;
+}
+
+#footer-14 #footer-top #Our3 #Our3-bottom #f:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Our3 #Our3-bottom #g:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Our3 #Our3-bottom #h:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Our3 #Our3-bottom #i:hover {
+  color: #47b2e4;
+}
+#footer-14 #footer-top #Our3 #Our3-bottom #j:hover {
+  color: #47b2e4;
+}
