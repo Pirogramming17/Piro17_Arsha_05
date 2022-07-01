@@ -8,6 +8,15 @@
   flex-direction: column;
 }
 
+#thrflexd {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  background-color: #3579cd;
+  border-radius: 50%;
+  fill: white;
+}
 #fixed-1 {
   z-index: 100;
 }
@@ -219,6 +228,18 @@
   padding: 20px;
 }
 
+#services-6 #flexone .maindiv:hover #span11,
+#services-6 #flexone .maindiv:hover #span21,
+#services-6 #flexone .maindiv:hover #span31,
+#services-6 #flexone .maindiv:hover #span41 {
+  color: #00c8ff;
+}
+
+#services-6 #flexone .maindiv:hover {
+  position: relative;
+  bottom: 15px;
+}
+
 #call-to-7 {
   background-image: url(./im2.png);
   padding: 170px 100px;
@@ -276,20 +297,26 @@
 }
 #better-solutions-2 #main {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-wrap: wrap-reverse;
   width: 100%;
-  height: 63vh;
+  height: 55vh;
   background-color: #37517e;
 }
 
 #better-solutions-2 #main-left {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
+  position: relative;
+  top: 10%;
+  left: 5%;
   text-align: left;
-  max-height: 70vh;
+  max-height: 50vh;
   max-width: 100vh;
-  padding: 90px 12px 0 20px;
+  padding: 30px 12px 0 40px;
   flex-shrink: 1;
   flex-grow: 1;
   margin: 5px;
@@ -297,31 +324,30 @@
 
 #better-solutions-2 #main-left h1 {
   margin: 0 0 10px 0;
-  line-height: 80px;
+  line-height: 60px;
   /* letter-spacing: 1px; */
-  word-spacing: 8px;
+  word-spacing: 2px;
   font-weight: bolder;
-  font-size: calc(1.7rem + 1.9vw);
+  font-size: calc(1.3rem + 1.6vw);
   font-family: "Jost", sans-serif;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   flex-shrink: 1;
-  flex-grow: 1;
 }
 #better-solutions-2 #main-left h2 {
-  font-size: calc(0.7rem + 0.9vw);
+  font-size: calc(0.6rem + 0.8vw);
   font-weight: bold;
-  line-height: 50px;
+  line-height: 30px;
   color: rgba(255, 255, 255, 0.6);
   font-family: "Jost", sans-serif;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 #better-solutions-2 #main-left #butns {
   display: flex;
-  gap: 1em;
-  justify-items: center;
+  gap: 3em;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -329,7 +355,7 @@
   text-align: center;
   font-family: "Jost", sans-serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 14px;
   letter-spacing: 1px;
   padding: 15px 32px 17px 32px;
   border-radius: 50px;
@@ -343,13 +369,16 @@
 
 #better-solutions-2 #main-left #watch {
   display: flex;
-  justify-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
+  width: 100px;
 }
 
 #better-solutions-2 #main-left img {
-  width: 10%;
-  height: 10%;
+  color: white;
+  width: 50px;
+  height: 50px;
 }
 #better-solutions-2 #main-left img:hover {
   background: #e6edf0;
@@ -357,12 +386,15 @@
 }
 
 #better-solutions-2 #main-left span {
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
   line-height: 1;
+  padding-left: 10px;
+  width: 100px;
 }
 #better-solutions-2 #main-right {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   max-width: 1000px;
   max-height: 1000px;
@@ -380,18 +412,15 @@
 }
 
 #better-solutions-2 #main-right img {
-  position: relative;
-  top: 5%;
-  width: 95%;
-  height: 95%;
-
+  width: 75%;
+  height: 75%;
   animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
-  max-width: 95%;
+  /* max-width: 95%; */
 }
 
 #better-solutions-2 #banner {
   display: flex;
-  min-height: 150px;
+  min-height: 110px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -583,10 +612,6 @@
 }
 
 /* 4번 */
-#eum-ipsam-4 #fixed-2 {
-  background-color: aqua;
-}
-
 #eum-ipsam-4 {
   background-color: rgb(243, 245, 250);
   padding: 60px 0px;
@@ -595,14 +620,14 @@
 }
 
 #eum-ipsam-4 .col1 {
-  width: 60%;
+  width: 57%;
   padding: 0 10px;
   justify-content: start;
 }
 
 #eum-ipsam-4 .content-4 {
   height: 40%;
-  padding: 60px 100px 0px;
+  padding: 60px 80px 0px;
 }
 
 #eum-ipsam-4 .content-4 h3 {
@@ -627,19 +652,17 @@
 
 #eum-ipsam-4 .accordion-list-4 {
   height: 60%;
-  padding: 0 100px 60px;
+  padding: 0 80px 60px;
 }
 
 #eum-ipsam-4 .accordion-list-4 ul {
-  width: 510px;
+  width: 100%;
   height: 220px;
   list-style: none;
   margin: 0 0 16px;
 }
 
 #eum-ipsam-4 .accordion-list-4 li {
-  width: 472x;
-  height: 70spx;
   padding: 20px;
   background: #fff;
   border-radius: 4px;
@@ -716,7 +739,6 @@
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  height: 82px;
   line-height: 24px;
 }
 
@@ -734,8 +756,432 @@
   align-items: center;
 }
 
-/* 12-contact**********************/
+/* 10번  */
 
+#pricing-10 {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+}
+
+#pricing-10 #flexone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#pricing-10 .flextwo {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px 50px 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(94, 94, 94);
+}
+
+#pricing-10 #textal {
+  text-align: center;
+}
+#pricing-10 #toptext {
+  font-size: 45px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#pricing-10 #hr {
+  width: 6%;
+  border-top: 5px solid #3579cd;
+}
+
+#pricing-10 #maintext {
+  margin: 40px 40px 100px 40px;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+
+#pricing-10 #flexone ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#pricing-10 .twomaintext {
+  font-size: 23px;
+  line-height: 50px;
+  fill: green;
+  color: grey;
+}
+
+#pricing-10 .getst {
+  margin: 50px 0;
+  color: #00c8ff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color: #00c8ff;
+  width: 70%;
+  text-align: center;
+}
+
+#pricing-10 .getst2 {
+  background-color: #00c8ff;
+  margin: 50px 0;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 50px;
+  border: 2px solid;
+
+  border-color: #00c8ff;
+  width: 70%;
+  text-align: center;
+}
+
+#pricing-10 .getst:hover {
+  background-color: #00c8ff;
+  color: #ffffff;
+}
+
+#pricing-10 .getst2:hover {
+  background-color: #0091b9;
+  color: #ffffff;
+  border-color: #0091b9;
+}
+
+#pricing-10 #borderch {
+  border-top: 5px solid #00c8ff;
+}
+
+#pricing-10 .main1 {
+  margin: 20px 0 40px 0;
+  color: #37517e;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#pricing-10 .main2 {
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+
+#pricing-10 .main2 svg {
+  vertical-align: top;
+  width: 10%;
+}
+
+#pricing-10 .main3 {
+  color: #00c8ff;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+#pricing-10 .svggry {
+  fill: gray;
+  text-decoration: line-through;
+}
+
+/* 13번 */
+#join-our-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f5fa;
+  padding: 60px 40px 60px 40px;
+}
+#join-our-13 #toptext {
+  font-size: 35px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#join-our-13 #topmain {
+  margin: 0px 40px 40px 40px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+
+#join-our-13 #input1 {
+  padding: 15px 200px;
+  border-radius: 30px;
+  border: 0px solid gray;
+}
+
+#join-our-13 #but {
+  background-color: #00c8ff;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 8px 25px;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color: #00c8ff;
+  margin-left: -60px;
+  vertical-align: -3px;
+}
+
+/* 8번 */
+
+#portfolio-8 .blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+#portfolio-8 {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#portfolio-8 #portfolio-title {
+  width: 1300px;
+  height: 60px;
+  display: inline-block;
+  right: 100px;
+  padding: 0px 0px 20px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  color: #37517e;
+  text-align: center;
+}
+
+#portfolio-8 #portfolio-title div {
+  width: 1300px;
+  height: 20;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+}
+
+#portfolio-8 #portfolio-Magnam {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+  line-height: 165%;
+  text-align: center;
+  width: 1300px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 30px 0px 0px 0px;
+}
+
+#portfolio-8 #portfolio-menu {
+  width: 1300px;
+  padding: 100px 0px 0px 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#portfolio-8 #portfolio-menu li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+#portfolio-8 #portfolio-menu li button {
+  border: 0px white;
+  background-color: white;
+  color: #444444;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 10px 5px;
+  padding: 8px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#portfolio-8 #portfolio-menu li button:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+
+#portfolio-8 #portfolio-pictures {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1300px;
+  margin: 0 auto;
+  width: 1290px;
+  vertical-align: top;
+  padding: 0px 0px 0px 0px;
+}
+
+#portfolio-8 #portfolio-pictures li {
+  list-style: none;
+}
+
+#portfolio-8 #portfolio-pictures img {
+  margin: 0 0 30px;
+  padding: 0 12px;
+}
+
+/* 11번 */
+
+#frequently-11 {
+  padding: 60px 0;
+  overflow: hidden;
+  display: flex;
+  background-color: #f3f5fa;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+#frequently-11 .container-11 {
+  padding: 0 12px;
+  margin: 0 5%;
+}
+
+#frequently-11 .title-11 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#frequently-11 .title-11 h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  vertical-align: baseline;
+}
+
+#frequently-11 .title-11 .line1-11 {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#frequently-11 .title-11 .line2-11 {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+#frequently-11 .title-11 p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-size-adjust: 100%;
+  color: #37517e;
+}
+
+#frequently-11 .faqlist-11 {
+  padding: 0 100px;
+}
+
+#frequently-11 .faqlist-11 ul {
+  margin-bottom: 1rem;
+}
+
+#frequently-11 .faqlist-11 li {
+  margin-top: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+#frequently-11 .faqlist-11 a {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-color: rgb(55, 81, 126);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-size-adjust: 100%;
+}
+
+#frequently-11 .faqlist-11 a:hover {
+  color: #47b2e4;
+}
+
+#frequently-11 .faqlist-11 a:hover .origin-button {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+#frequently-11 .faqlist-11 a:hover .fa-angle-up,
+#frequently-11 .faqlist-11 a:hover .fa-angle-up {
+  color: #47b2e4;
+}
+
+#frequently-11 .faqlist-11 a:hover .dropdown-content-11 {
+  display: inline-block;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#frequently-11 .faqlist-11 .dropdown-11 {
+  z-index: 100;
+}
+
+#frequently-11 .faqlist-11 .dropdown-content-11 {
+  display: none;
+  z-index: 1;
+}
+
+#frequently-11 .faqlist-11 .helpicon-11 {
+  background: url("./helpicon.png") no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+#frequently-11 .faqlist-11 .dropdown-11 p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  font-size: 16px;
+}
+
+/* 12번 */
 #contact-12 #main {
   display: flexbox;
   flex-direction: column;
@@ -744,13 +1190,13 @@
   text-align: center;
   padding: 70px;
   flex-wrap: wrap;
-  height: 1300px;
+  height: 1050px;
   flex-shrink: 1;
   flex-grow: 1;
 }
 
 #contact-12 #main h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bolder;
   text-transform: uppercase;
   /* margin-bottom: 20px; */
@@ -761,7 +1207,7 @@
 }
 #contact-12 #main h2 {
   padding-top: 20px;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: normal;
   flex-shrink: 1;
   flex-grow: 1;
@@ -769,12 +1215,12 @@
   position: relative;
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 #contact-12 #main img {
   width: 10%;
-  height: 2%;
+  height: 1%;
   flex-shrink: 1;
   flex-grow: 1;
 }
@@ -798,18 +1244,17 @@
   justify-content: center;
   flex-shrink: 1;
   align-items: center;
-  height: 100%;
-  border-top: 4px solid #47b2e4;
-  border-bottom: 4px solid #47b2e4;
-  padding: 20px;
+  border-top: 2px solid #47b2e4;
+  border-bottom: 2px solid #47b2e4;
+  padding: 10px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
 }
 
 #contact-12 #info12 #location {
-  width: 800px;
-  height: 900px;
-  padding-bottom: 50px;
+  width: 500px;
+  height: 700px;
+  padding-bottom: 30px;
 }
 
 #contact-12 #location #top-box {
@@ -869,34 +1314,34 @@
 }
 
 #contact-12 #location h2 {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 600;
   color: #37517e;
 }
 #contact-12 #location h3 {
-  font-size: 22px;
+  font-size: 17px;
   color: #6182ba;
   padding-bottom: 20px;
 }
 
 #contact-12 #yourname h3 {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 20px;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 #contact-12 #location img {
-  width: 700px;
-  height: 300px;
+  width: 400px;
+  height: 100px;
 }
 
 #contact-12 #info12 #yourname {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1100px;
-  height: 900px;
+  width: 750px;
+  height: 700px;
   padding-top: 50px;
 }
 
@@ -906,7 +1351,7 @@
   justify-content: space-evenly;
   flex-shrink: 1;
   flex-grow: 1;
-  width: 1000px;
+  width: 670px;
   flex-grow: 1;
   flex-shrink: 1;
   gap: 2em;
@@ -922,31 +1367,31 @@
 #contact-12 #yourname input,
 textarea {
   padding: 0.375rem 0.75rem;
-  height: 4rem;
-  font-size: 1.5rem;
+  height: 2rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 0.5;
   color: #212529;
   background-color: #fff;
-  background-clip: padding-box;
-  border-color: 1px solid #ced4da;
+  border: 1px solid #ced4da;
   border-radius: 0.25rem;
   flex-grow: 1;
   flex-shrink: 1;
   font-family: "Open Sans", sans-serif;
-  /* transition: border-color 0.15s ease-in-out; */
+  /* transition-property: border;
+  transition: color 0.15s ease-in-out; */
 }
 
 #contact-12 #yourname #top-1 input,
 #top-2 input {
-  width: 480px;
+  width: 300px;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
 #contact-12 #yourname #middle-1 input,
 #bottom-1 textarea {
-  width: 1000px;
+  width: 650px;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -954,15 +1399,17 @@ textarea {
 #contact-12 #yourname #input-middle,
 #input-bottom {
   display: flex;
-  width: 1000px;
+  width: 700px;
   flex-direction: row;
   justify-content: flex-start;
   padding-top: 40px;
+  padding-left: 25px;
 }
 
 #contact-12 #yourname #input-bottom {
-  height: 470px;
-  padding-bottom: 40px;
+  height: 500px;
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
 
 #contact-12 #yourname #middle-1,
@@ -976,10 +1423,10 @@ textarea {
   text-align: center;
   font-family: "Jost", sans-serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing: 1px;
   padding: 15px 32px 17px 32px;
-  border-radius: 50px;
+  border-radius: 30px;
   transition: 0.5s;
   color: #fff;
   background: #47b2e4;
