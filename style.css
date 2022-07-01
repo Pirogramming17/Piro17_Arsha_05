@@ -314,8 +314,6 @@
   background-color: #00c8ff;
 }
 
-/* better-solutions-2 ****************************/
-
 #better-solutions-2 {
   margin-top: 179px;
   flex-grow: 1;
@@ -323,20 +321,26 @@
 }
 #better-solutions-2 #main {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-wrap: wrap-reverse;
   width: 100%;
-  height: 63vh;
+  height: 55vh;
   background-color: #37517e;
 }
 
 #better-solutions-2 #main-left {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
+  position: relative;
+  top: 10%;
+  left: 5%;
   text-align: left;
-  max-height: 70vh;
+  max-height: 50vh;
   max-width: 100vh;
-  padding: 90px 12px 0 20px;
+  padding: 30px 12px 0 40px;
   flex-shrink: 1;
   flex-grow: 1;
   margin: 5px;
@@ -344,31 +348,30 @@
 
 #better-solutions-2 #main-left h1 {
   margin: 0 0 10px 0;
-  line-height: 80px;
+  line-height: 60px;
   /* letter-spacing: 1px; */
-  word-spacing: 8px;
+  word-spacing: 2px;
   font-weight: bolder;
-  font-size: calc(1.7rem + 1.9vw);
+  font-size: calc(1.3rem + 1.6vw);
   font-family: "Jost", sans-serif;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   flex-shrink: 1;
-  flex-grow: 1;
 }
 #better-solutions-2 #main-left h2 {
-  font-size: calc(0.7rem + 0.9vw);
+  font-size: calc(0.6rem + 0.8vw);
   font-weight: bold;
-  line-height: 50px;
+  line-height: 30px;
   color: rgba(255, 255, 255, 0.6);
   font-family: "Jost", sans-serif;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 #better-solutions-2 #main-left #butns {
   display: flex;
-  gap: 1em;
-  justify-items: center;
+  gap: 3em;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -376,7 +379,7 @@
   text-align: center;
   font-family: "Jost", sans-serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 14px;
   letter-spacing: 1px;
   padding: 15px 32px 17px 32px;
   border-radius: 50px;
@@ -390,13 +393,16 @@
 
 #better-solutions-2 #main-left #watch {
   display: flex;
-  justify-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
+  width: 100px;
 }
 
 #better-solutions-2 #main-left img {
-  width: 10%;
-  height: 10%;
+  color: white;
+  width: 50px;
+  height: 50px;
 }
 #better-solutions-2 #main-left img:hover {
   background: #e6edf0;
@@ -404,12 +410,15 @@
 }
 
 #better-solutions-2 #main-left span {
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
   line-height: 1;
+  padding-left: 10px;
+  width: 100px;
 }
 #better-solutions-2 #main-right {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   max-width: 1000px;
   max-height: 1000px;
@@ -427,18 +436,15 @@
 }
 
 #better-solutions-2 #main-right img {
-  position: relative;
-  top: 5%;
-  width: 95%;
-  height: 95%;
-
+  width: 75%;
+  height: 75%;
   animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
-  max-width: 95%;
+  /* max-width: 95%; */
 }
 
 #better-solutions-2 #banner {
   display: flex;
-  min-height: 150px;
+  min-height: 110px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -1214,13 +1220,13 @@
   text-align: center;
   padding: 70px;
   flex-wrap: wrap;
-  height: 1300px;
+  height: 1050px;
   flex-shrink: 1;
   flex-grow: 1;
 }
 
 #contact-12 #main h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bolder;
   text-transform: uppercase;
   /* margin-bottom: 20px; */
@@ -1231,7 +1237,7 @@
 }
 #contact-12 #main h2 {
   padding-top: 20px;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: normal;
   flex-shrink: 1;
   flex-grow: 1;
@@ -1239,12 +1245,12 @@
   position: relative;
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 #contact-12 #main img {
   width: 10%;
-  height: 2%;
+  height: 1%;
   flex-shrink: 1;
   flex-grow: 1;
 }
@@ -1268,18 +1274,17 @@
   justify-content: center;
   flex-shrink: 1;
   align-items: center;
-  height: 100%;
-  border-top: 4px solid #47b2e4;
-  border-bottom: 4px solid #47b2e4;
-  padding: 20px;
+  border-top: 2px solid #47b2e4;
+  border-bottom: 2px solid #47b2e4;
+  padding: 10px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
 }
 
 #contact-12 #info12 #location {
-  width: 800px;
-  height: 900px;
-  padding-bottom: 50px;
+  width: 500px;
+  height: 700px;
+  padding-bottom: 30px;
 }
 
 #contact-12 #location #top-box {
@@ -1339,34 +1344,34 @@
 }
 
 #contact-12 #location h2 {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 600;
   color: #37517e;
 }
 #contact-12 #location h3 {
-  font-size: 22px;
+  font-size: 17px;
   color: #6182ba;
   padding-bottom: 20px;
 }
 
 #contact-12 #yourname h3 {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 20px;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 #contact-12 #location img {
-  width: 700px;
-  height: 300px;
+  width: 400px;
+  height: 100px;
 }
 
 #contact-12 #info12 #yourname {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1100px;
-  height: 900px;
+  width: 750px;
+  height: 700px;
   padding-top: 50px;
 }
 
@@ -1376,7 +1381,7 @@
   justify-content: space-evenly;
   flex-shrink: 1;
   flex-grow: 1;
-  width: 1000px;
+  width: 670px;
   flex-grow: 1;
   flex-shrink: 1;
   gap: 2em;
@@ -1392,10 +1397,10 @@
 #contact-12 #yourname input,
 textarea {
   padding: 0.375rem 0.75rem;
-  height: 4rem;
-  font-size: 1.5rem;
+  height: 2rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 0.5;
   color: #212529;
   background-color: #fff;
   border: 1px solid #ced4da;
@@ -1409,14 +1414,14 @@ textarea {
 
 #contact-12 #yourname #top-1 input,
 #top-2 input {
-  width: 480px;
+  width: 300px;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
 #contact-12 #yourname #middle-1 input,
 #bottom-1 textarea {
-  width: 1000px;
+  width: 650px;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -1424,15 +1429,17 @@ textarea {
 #contact-12 #yourname #input-middle,
 #input-bottom {
   display: flex;
-  width: 1000px;
+  width: 700px;
   flex-direction: row;
   justify-content: flex-start;
   padding-top: 40px;
+  padding-left: 25px;
 }
 
 #contact-12 #yourname #input-bottom {
-  height: 470px;
-  padding-bottom: 40px;
+  height: 500px;
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
 
 #contact-12 #yourname #middle-1,
@@ -1446,10 +1453,10 @@ textarea {
   text-align: center;
   font-family: "Jost", sans-serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing: 1px;
   padding: 15px 32px 17px 32px;
-  border-radius: 50px;
+  border-radius: 30px;
   transition: 0.5s;
   color: #fff;
   background: #47b2e4;
