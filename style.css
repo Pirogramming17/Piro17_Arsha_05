@@ -8,6 +8,15 @@
   flex-direction: column;
 }
 
+#thrflexd {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  background-color: #3579cd;
+  border-radius: 50%;
+  fill: white;
+}
 #fixed-1 {
   z-index: 100;
 }
@@ -595,10 +604,6 @@
 }
 
 /* 4번 */
-#eum-ipsam-4 #fixed-2 {
-  background-color: aqua;
-}
-
 #eum-ipsam-4 {
   background-color: rgb(243, 245, 250);
   padding: 60px 0px;
@@ -607,7 +612,7 @@
 }
 
 #eum-ipsam-4 .col1 {
-  width: 60%;
+  width: 55%;
   padding: 0 10px;
   justify-content: start;
 }
@@ -643,15 +648,13 @@
 }
 
 #eum-ipsam-4 .accordion-list-4 ul {
-  width: 510px;
+  width: 95%;
   height: 220px;
   list-style: none;
   margin: 0 0 16px;
 }
 
 #eum-ipsam-4 .accordion-list-4 li {
-  width: 472x;
-  height: 70spx;
   padding: 20px;
   background: #fff;
   border-radius: 4px;
@@ -672,7 +675,6 @@
   line-height: 24px;
   font-weight: 500;
   outline: none;
-  cursor: pointer;
   flex-wrap: wrap;
 }
 
@@ -728,7 +730,6 @@
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  height: 82px;
   line-height: 24px;
 }
 
@@ -873,4 +874,300 @@
 #pricing-10 .svggry {
   fill: gray;
   text-decoration: line-through;
+}
+
+/* 13번 */
+#join-our-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f5fa;
+  padding: 60px 40px 60px 40px;
+}
+#join-our-13 #toptext {
+  font-size: 35px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#join-our-13 #topmain {
+  margin: 0px 40px 40px 40px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 30px;
+}
+
+#join-our-13 #input1 {
+  padding: 15px 200px;
+  border-radius: 30px;
+  border: 0px solid gray;
+}
+
+#join-our-13 #but {
+  background-color: #00c8ff;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 8px 25px;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color: #00c8ff;
+  margin-left: -60px;
+  vertical-align: -3px;
+}
+
+/* 8번 */
+
+#portfolio-8 .blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+#portfolio-8 {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#portfolio-8 #portfolio-title {
+  width: 1300px;
+  height: 60px;
+  display: inline-block;
+  right: 100px;
+  padding: 0px 0px 20px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  color: #37517e;
+  text-align: center;
+}
+
+#portfolio-8 #portfolio-title div {
+  width: 1300px;
+  height: 20;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+}
+
+#portfolio-8 #portfolio-Magnam {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+  line-height: 165%;
+  text-align: center;
+  width: 1300px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 30px 0px 0px 0px;
+}
+
+#portfolio-8 #portfolio-menu {
+  width: 1300px;
+  padding: 100px 0px 0px 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#portfolio-8 #portfolio-menu li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+#portfolio-8 #portfolio-menu li button {
+  border: 0px white;
+  background-color: white;
+  color: #444444;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 10px 5px;
+  padding: 8px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#portfolio-8 #portfolio-menu li button:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+
+#portfolio-8 #portfolio-pictures {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1300px;
+  margin: 0 auto;
+  width: 1290px;
+  vertical-align: top;
+  padding: 0px 0px 0px 0px;
+}
+
+#portfolio-8 #portfolio-pictures li {
+  list-style: none;
+}
+
+#portfolio-8 #portfolio-pictures img {
+  margin: 0 0 30px;
+  padding: 0 12px;
+}
+
+/* 11번 */
+
+#frequently-11 {
+  padding: 60px 0;
+  overflow: hidden;
+  display: flex;
+  background-color: #f3f5fa;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+#frequently-11 .container-11 {
+  padding: 0 12px;
+  margin: 0 5%;
+}
+
+#frequently-11 .title-11 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#frequently-11 .title-11 h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  vertical-align: baseline;
+}
+
+#frequently-11 .title-11 .line1-11 {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#frequently-11 .title-11 .line2-11 {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+#frequently-11 .title-11 p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-size-adjust: 100%;
+  color: #37517e;
+}
+
+#frequently-11 .faqlist-11 {
+  padding: 0 100px;
+}
+
+#frequently-11 .faqlist-11 ul {
+  margin-bottom: 1rem;
+}
+
+#frequently-11 .faqlist-11 li {
+  margin-top: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+#frequently-11 .faqlist-11 a {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-color: rgb(55, 81, 126);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-size-adjust: 100%;
+}
+
+#frequently-11 .faqlist-11 a:hover {
+  color: #47b2e4;
+}
+
+#frequently-11 .faqlist-11 a:hover .origin-button {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+#frequently-11 .faqlist-11 a:hover .fa-angle-up,
+#frequently-11 .faqlist-11 a:hover .fa-angle-up {
+  color: #47b2e4;
+}
+
+#frequently-11 .faqlist-11 a:hover .dropdown-content-11 {
+  display: inline-block;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#frequently-11 .faqlist-11 .dropdown-11 {
+  z-index: 100;
+}
+
+#frequently-11 .faqlist-11 .dropdown-content-11 {
+  display: none;
+  z-index: 1;
+}
+
+#frequently-11 .faqlist-11 .helpicon-11 {
+  background: url("./helpicon.png") no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+#frequently-11 .faqlist-11 .dropdown-11 p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  font-size: 16px;
 }
