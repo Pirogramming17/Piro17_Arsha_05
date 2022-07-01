@@ -404,3 +404,60 @@
 }
 
 /* better-solutions-2 ***************************************************/
+
+#voluptatem-5 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+#voluptatem-5 .text {
+  width: 40%;
+}
+#voluptatem-5 .pic {
+  width: 600px;
+  height: 530x;
+  margin-right: 3%;
+}
+
+#voluptatem-5 {
+  align-items: center;
+}
+#voluptatem-5 .bold {
+  color: #37517e;
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+#voluptatem-5 .sub {
+  color: #444444;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+#voluptatem-5 .graph_text {
+  color: #37517e;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  font-family: "Poppins", sans-serif;
+}
+#voluptatem-5 .gr {
+  margin-bottom: 35px;
+}
+
+#voluptatem-5 .pg {
+  height: 12px;
+  background-color: #e8edf5;
+  border: 0;
+  width: 100%;
+}
+
+::-webkit-progress-value {
+  background-color: #4668a2;
+}
+::-webkit-progress-bar {
+  background-color: #e8edf5;
+}
