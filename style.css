@@ -141,3 +141,77 @@
 #fixed-1 #twoflxed il:hover {
   color: #00c8ff;
 }
+
+#services-6 #fullflex {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+
+#services-6 #flexone {
+  display: flex;
+  flex-direction: row;
+}
+
+#services-6 #flexone div {
+  display: flex;
+  flex-direction: column;
+}
+
+#services-6 #toptext {
+  font-size: 45px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  text-align: center;
+}
+
+#services-6 #toptext hr {
+  width: 6%;
+  border-top: 5px solid #3579cd;
+}
+
+#services-6 #topmain {
+  margin: 10px;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+#services-6 #flexone {
+  margin: 50px;
+  background-color: white;
+}
+#services-6 #flexone .maindiv {
+  fill: #3579cd;
+  padding: 60px;
+}
+
+#services-6 #span11,
+#services-6 #span21,
+#services-6 #span31,
+#services-6 #span41 {
+  font-size: 29px;
+  font-weight: bold;
+  color: hwb(228 18% 39%);
+  margin: 20px 0px;
+}
+
+#services-6 #span12,
+#services-6 #span22,
+#services-6 #span32,
+#services-6 #span42 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  margin: 20px 0px;
+}
+
+#services-6 {
+  background-color: #f3f5fa;
+}
+
+#services-6 .gap {
+  background-color: #f3f5fa;
+  padding: 20px;
+}
