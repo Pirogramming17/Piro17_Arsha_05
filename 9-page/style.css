@@ -1,0 +1,126 @@
+@import "reset.css";
+
+/* 스타일 만드실때 만드는중인 아이디 꼭 먼저 적고 만들어주세요
+#1-fixed ~~~~{ ...} */
+
+#contaier {
+  display: flex;
+  flex-direction: column;
+}
+
+#team-9 .people {
+  width: 500px;
+  height: 170px;
+  background-color: #ffffff;
+  display: flex;
+  padding: 30px;
+  border-radius: 2%;
+}
+
+#team-9 .top-text {
+  text-align: center;
+  padding-top: 20px;
+}
+#team-9 .title {
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  margin-top: 30px;
+}
+#team-9 .sub-text {
+  color: #444444;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  padding-top: 4%;
+}
+#team-9 .name {
+  color: #37517e;
+  font-family: "OpenSans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#team-9 .position {
+  color: #444444;
+  font-family: "OpenSans", sans-serif;
+  font-size: 15px;
+}
+#team-9 .sentence {
+  color: #444444;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+}
+#team-9 .face {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  justify-content: center;
+}
+#team-9 .main {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#team-9 {
+  background-color: #f3f5fa;
+  width: 100%;
+  height: 780px;
+}
+
+#team-9 .left {
+  margin-right: 20px;
+}
+#team-9 .first {
+  margin-bottom: 20px;
+}
+#team-9 .third {
+  margin-bottom: 20px;
+}
+#team-9 .explain {
+  margin-left: 20px;
+}
+#team-9 .bar-position {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#team-9 .main-bar {
+  content: "";
+  background: #cbd6e9;
+  width: 50px;
+  height: 1px;
+  bottom: 1px;
+}
+#team-9 .line1 {
+  content: "";
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+  margin-bottom: 20px;
+}
+
+#team-9 .line2 {
+  content: "";
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #3579cd;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+#team-9 .contact {
+  width: 150px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#team-9 .img {
+  width: 32px;
+  height: 32px;
+}
